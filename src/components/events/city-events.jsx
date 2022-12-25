@@ -9,8 +9,17 @@ export const CityEvents = ({ pageName, data }) => {
       <div className="city-events-container">
         {data.map((ev) => {
           return (
-            <Link href={`/events/${ev.city}/${ev.id}`} className="cityEvents">
-              <Image src={ev.image} width="200" height="300" />
+            <Link
+              key={ev.id}
+              href={`/events/${ev.city}/${ev.id}`}
+              className="cityEvents"
+            >
+              <Image
+                alt="Event Image"
+                src={ev.image}
+                width="200"
+                height="300"
+              />
               <h2>{ev.title}</h2>
               <p>{ev.description}</p>
               <p>
