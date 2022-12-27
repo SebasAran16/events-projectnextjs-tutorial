@@ -3,11 +3,19 @@ export const Footer = () => {
     <footer>
       <p>
         Created by {}
-        <a target="_blank" href="https://twitter.com/time_tocode">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://twitter.com/time_tocode"
+        >
           @time_tocode
         </a>
         , coded by {}
-        <a target="_blank" href="https://twitter.com/Sebas_aran16">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://twitter.com/Sebas_aran16"
+        >
           @Sebas_aran16
         </a>
       </p>

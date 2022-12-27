@@ -7,7 +7,7 @@ export default function NoPage() {
       <h1>Ooooopss...</h1>
       <h2>This page could not be found.</h2>
       <p>
-        Let's go back to the <Link href="/">home page</Link>
+        Go back to the <Link href="/">home page</Link>
       </p>
     </div>
   );
